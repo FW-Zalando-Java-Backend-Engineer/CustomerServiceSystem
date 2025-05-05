@@ -25,7 +25,7 @@ public class TicketQueue {
 
 
     /**
-     * Processes the next ticket in the queue.
+     * Processes the next ticket in the queue, then removes it.
      *
      * @return the processed ticket, or null if the queue is empty
      */
